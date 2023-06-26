@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@import url('https://fonts.cdnfonts.com/css/book-antiqua');
+
+.img {
+  width: 1600px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.img>img {
+  width: 1600px;
+  object-fit: cover;
+}
+
+.line {
+  position: absolute;
+  top: 130px;
+  width: 1320px;
+  left: 15px;
+  border: 1px solid #d1d1d1;
+}
+
+.txt {
+  position: absolute;
+  font-family: 'Book Antiqua', sans-serif;
+  font-size: 17px;
+  right: 265px;
+  top: 90px;
+  color: #a1a1a1;
+}
+
+.click {
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+  right: 15px;
+  top: 100px
+}
+
+.click>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border: 2px solid #d1d1d1;
+  border-radius: 30px;
+  color: #333;
+  font-family: 'Book Antiqua', sans-serif;
+}
+
+.click>a:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
+}
